@@ -1,0 +1,15 @@
+1 - create ssh public key -->
+ssh-keygen -t ed25519 -C "essinho1121@gmail.com"
+--> type "passphrase" twice to complete that
+
+2 - check the public key -->
+eval "$(ssh-agent -s)"
+--> must be equal to Agent pid 2218
+
+3 - check the list ssh key -->
+ls -al ~/.ssh
+--> see the list
+
+4 - type the below code into git bash --> 
+vi ~/.ssh/id_rsa.pub 
+--> get the key and copy it and paste it into key input in github
