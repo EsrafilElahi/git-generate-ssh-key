@@ -13,3 +13,7 @@ ls -al ~/.ssh
 4 - type the below code into git bash --> 
 vi ~/.ssh/id_rsa.pub 
 --> get the key and copy it and paste it into key input in github
+
+5 - check the ssh key
+ssh -T git@github.com
+--> will see hi essinho1121 your ssh is successfully generated
