@@ -17,3 +17,14 @@ vi ~/.ssh/id_rsa.pub
 5 - check the ssh key
 ssh -T git@github.com
 --> will see hi essinho1121 your ssh is successfully generated
+
+
+for fix 22 connection timed out error : 
+
+nano ~/.ssh/config : 
+
+type this code 
+
+Host github.com
+  Hostname ssh.github.com
+  port 443
