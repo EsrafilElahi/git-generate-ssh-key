@@ -2,6 +2,10 @@
 ssh-keygen -t ed25519 -C "essinho1121@gmail.com"
 --> type "passphrase" twice to complete that
 
+1:1 - ssh-keygen -o -t rsa -C "essinho1121@gmail.com" --> for gitlab
+
+cat ~/.ssh/id_rsa.pub --> copy paste the token
+
 2 - check the public key -->
 eval "$(ssh-agent -s)"
 --> must be equal to Agent pid 2218
