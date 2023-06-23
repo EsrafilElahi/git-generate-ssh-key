@@ -23,6 +23,7 @@ ssh -T git@github.com
 --> will see hi essinho1121 your ssh is successfully generated
 
 
+
 for fix 22 connection timed out error : 
 
 nano ~/.ssh/config : 
